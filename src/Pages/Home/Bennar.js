@@ -3,27 +3,22 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-var settings = {
-  dots: true,
-  infinite: true,
-  speed: 500,
-  slidesToShow: 1,
-  slidesToScroll: 1,
-};
+
 
 export default function Bennar() {
+  var settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  };
   return (
     <>
       <div className="container-fluid mb-3">
         <div className="row px-xl-5">
           <div className="col-lg-8">
-            {/* <div id="header-carousel" className="carousel slide carousel-fade mb-30 mb-lg-0" data-ride="carousel">
-          <ol className="carousel-indicators">
-            <li data-target="#header-carousel" data-slide-to={0} className="active" />
-            <li data-target="#header-carousel" data-slide-to={1} />
-            <li data-target="#header-carousel" data-slide-to={2} />
-          </ol>
-          <div className="carousel-inner"> */}
+
 
             <Slider {...settings}>
               <div
@@ -51,6 +46,7 @@ export default function Bennar() {
                       Shop Now
                     </a>
                   </div>
+                  
                 </div>
               </div>
               <div className=" position-relative" style={{ height: "430px" }}>

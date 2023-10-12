@@ -9710,3 +9710,9 @@ a.text-dark:hover, a.text-dark:focus {
     transform: translateY(-15px);
   }
 }
+
+
+
+.slick-current{
+  height: 450px;
+}
