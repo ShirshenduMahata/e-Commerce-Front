@@ -1,6 +1,9 @@
 import React from "react";
 
 export default function Categories() {
+
+
+  
   return (
     <>
       <div className="container-fluid pt-5">
@@ -205,18 +208,6 @@ export default function Categories() {
     </>
   );
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

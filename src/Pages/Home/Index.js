@@ -6,6 +6,9 @@ import Categories from "./Categories";
 
 
 export default function Home(){
+
+
+  
     return(
         <div>
   {/* Carousel Start */}
@@ -526,6 +529,5 @@ export default function Home(){
 </div>
 
     )
-
-    
+  
 }

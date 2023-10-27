@@ -13,6 +13,9 @@ export default function Bennar() {
     slidesToShow: 1,
     slidesToScroll: 1,
   };
+
+
+  
   return (
     <>
       <div className="container-fluid mb-3">
