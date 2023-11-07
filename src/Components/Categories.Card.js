@@ -11,7 +11,3 @@ export default function Categories_Card(){
 }
 
 
-
-
-
-

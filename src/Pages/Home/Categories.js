@@ -208,7 +208,3 @@ export default function Categories() {
     </>
   );
 }
-
-
-
-

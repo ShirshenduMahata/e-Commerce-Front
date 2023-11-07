@@ -532,7 +532,3 @@ export default function Home(){
   
 }
 
-
-
-
-
